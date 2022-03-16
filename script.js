@@ -38,9 +38,9 @@ function triggerWord(elem) {
 }
 function loadQuestion(question) {
   promptParent.innerHTML = "";
-  questionName.innerHTML = question.text;
+  questionName.innerHTML = `${currentQuestion + 1}. ${question.text}`;
   for (var i = 0; i < question.answers.length; i++) {
-    promptParent.appendChild(createPrompt(question.answers[i],i + 1, question.respondents));
+    promptParent.appendChild(createPrompt(question.answers[i],i + 1, 50));
   }
 }
 function createPrompt(promptData,index,totalRespondents) {

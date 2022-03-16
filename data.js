@@ -1,56 +1,356 @@
 var questions = [
   {
-    text:"Are you Amoggers?",
-    respondents:"100",
+    text:"Name something you might do when you wake up in the morning.",
     answers:[
       {
-        text:"sus",
-        respondents:"43"
+        text:"check phone",
+        respondents:"14"
       },
       {
-        text:"Yes",
-        respondents:"35"
+        text:"do routine",
+        respondents:"7"
       },
       {
-        text:"No",
-        respondents:"22"
-      },
-    ]
-  },
-  {
-    text:"Are you Chungus?",
-    respondents:"16",
-    answers:[
-      {
-        text:"rabbit",
-        respondents:"12"
+        text:"back to sleep",
+        respondents:"6"
       },
       {
-        text:"beliver",
+        text:"check social media",
+        respondents:"5"
+      },
+      {
+        text:"workout",
+        respondents:"5"
+      },
+      {
+        text:"drink water",
         respondents:"3"
       },
       {
-        text:"mongrel",
-        respondents:"1"
+        text:"drink water",
+        respondents:"3"
+      }
+    ]
+  },
+  {
+    text:"Name something you might dream about.",
+    answers:[
+      {
+        text:"school",
+        respondents:"8"
+      },
+      {
+        text:"reqs/deadlines",
+        respondents:"7"
+      },
+      {
+        text:"crush",
+        respondents:"5"
+      },
+      {
+        text:"books/shows/games",
+        respondents:"4"
+      },
+      {
+        text:"flying",
+        respondents:"4"
+      },
+      {
+        text:"pisay campus/f2f",
+        respondents:"4"
+      },
+      {
+        text:"apocalypse",
+        respondents:"3"
+      },
+      {
+        text:"falling",
+        respondents:"2"
+      },
+      {
+        text:"recent experiences",
+        respondents:"2"
       },
     ]
   },
   {
-    text:"Are you english?",
-    respondents:"50",
+    text:"Name something that runs out quickly during quarantine.",
     answers:[
       {
-        text:"cry harder",
-        respondents:"20"
+        text:"patience",
+        respondents:"6"
       },
       {
-        text:"japanese",
-        respondents:"15"
+        text:"time",
+        respondents:"6"
       },
       {
-        text:"british",
-        respondents:"15"
+        text:"food",
+        respondents:"5"
       },
+      {
+        text:"motivation",
+        respondents:"5"
+      },
+      {
+        text:"energy",
+        respondents:"4"
+      },
+      {
+        text:"tissue",
+        respondents:"4"
+      },
+      {
+        text:"alcohol",
+        respondents:"3"
+      },
+      {
+        text:"entertainment",
+        respondents:"2"
+      },
+      {
+        text:"money",
+        respondents:"2"
+      },
+      {
+        text:"competence/brain cells",
+        respondents:"2"
+      },
+    ]
+  },
+  {
+    text:"Name something you’d do when you’re stuck at home with no WiFi.",
+    answers:[
+      {
+        text:"read a book",
+        respondents:"18"
+      },
+      {
+        text:"sleep",
+        respondents:"11"
+      },
+      {
+        text:"write/draw",
+        respondents:"4"
+      },
+      {
+        text:"exercise",
+        respondents:"2"
+      },
+      {
+        text:"nothing",
+        respondents:"2"
+      },
+      {
+        text:"play offline games",
+        respondents:"2"
+      },
+      {
+        text:"scroll thru pictures",
+        respondents:"2"
+      },
+      {
+        text:"Use mobile data",
+        respondents:"2"
+      }
+    ]
+  },
+  {
+    text:"Name something Pisay students usually dread.",
+    answers:[
+      {
+        text:"research",
+        respondents:"13"
+      },
+      {
+        text:"reqs",
+        respondents:"11"
+      },
+      {
+        text:"hell week",
+        respondents:"6"
+      },
+      {
+        text:"deadlines",
+        respondents:"4"
+      },
+      {
+        text:"recitation",
+        respondents:"3"
+      },
+      {
+        text:"exams",
+        respondents:"2"
+      },
+      {
+        text:"pisay",
+        respondents:"2"
+      }
+    ]
+  },
+  {
+    text:"Name something Pisay students usually do on a free period.	",
+    answers:[
+      {
+        text:"sleep",
+        respondents:"17"
+      },
+      {
+        text:"go to library",
+        respondents:"6"
+      },
+      {
+        text:"chill",
+        respondents:"5"
+      },
+      {
+        text:"frisbee",
+        respondents:"4"
+      },
+      {
+        text:"games",
+        respondents:"4"
+      },
+      {
+        text:"reqs",
+        respondents:"4"
+      },
+      {
+        text:"cram",
+        respondents:"3"
+      },
+      {
+        text:"study",
+        respondents:"2"
+      }
+    ]
+  },
+  {
+    text:"Name something you’d bring on a school field trip.",
+    answers:[
+      {
+        text:"phone",
+        respondents:"10"
+      },
+      {
+        text:"chips",
+        respondents:"7"
+      },
+      {
+        text:"money",
+        respondents:"6"
+      },
+      {
+        text:"snacks",
+        respondents:"4"
+      },
+      {
+        text:"water jug",
+        respondents:"4"
+      },
+      {
+        text:"camera",
+        respondents:"3"
+      },
+      {
+        text:"ear/headphones",
+        respondents:"3"
+      },
+      {
+        text:"cards",
+        respondents:"2"
+      },
+      {
+        text:"pillow/plushie",
+        respondents:"2"
+      },
+    ]
+  },
+  {
+    text:"Name something Pisay students usually look for in the lost & found.	",
+    answers:[
+      {
+        text:"water jug",
+        respondents:"16"
+      },
+      {
+        text:"ID",
+        respondents:"12"
+      },
+      {
+        text:"phone",
+        respondents:"5"
+      },
+      {
+        text:"wallet",
+        respondents:"5"
+      },
+      {
+        text:"go bag",
+        respondents:"3"
+      },
+      {
+        text:"scientific calculator",
+        respondents:"3"
+      },
+      {
+        text:"frisbee",
+        respondents:"2"
+      }
+    ]
+  },
+  {
+    text:"Name something students use in STEM classes.",
+    answers:[
+      {
+        text:"scientific calculator",
+        respondents:"29"
+      },
+      {
+        text:"pen",
+        respondents:"5"
+      },
+      {
+        text:"brain",
+        respondents:"4"
+      },
+      {
+        text:"computer/gadgets",
+        respondents:"2"
+      },
+      {
+        text:"microscope",
+        respondents:"2"
+      }
+    ]
+  },
+  {
+    text:"Name a reason why a student might be absent on a school day.",
+    answers:[
+      {
+        text:"sickness",
+        respondents:"33"
+      },
+      {
+        text:"contest",
+        respondents:"4"
+      },
+      {
+        text:"stress",
+        respondents:"3"
+      },
+      {
+        text:"dengue",
+        respondents:"2"
+      },
+      {
+        text:"family issues",
+        respondents:"2"
+      },
+      {
+        text:"oversleep",
+        respondents:"2"
+      }
     ]
   },
 ]

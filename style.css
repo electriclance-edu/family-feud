@@ -79,6 +79,10 @@ button, .clickable {
 .game h1 {
   font-size:30px;
 }
+#question {
+  white-space:nowrap;
+  width:50px;
+}
 .prompts {
   display:grid;
   grid-template-columns:auto auto;
