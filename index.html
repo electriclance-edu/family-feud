@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Group 5 HR</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="onload()">
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <div class="title centered" id="titleScreen">
+      <p class="slogan">Like HR But Activity :O</p>
+      <h1>
+        <span class="big">F</span>AMILY
+        <br>
+        <span class="big">R</span>AT
+      </h1>
+      <p>Tau Group 5 HR</p>
+      <button onclick="start()">START</button>
+      <p class="slogan" style="color:rgb(100,100,100)">not for distribution</p>
+    </div>
+    <div class="game centered centeredVanished" id="gameScreen">
+      <h1 id="question">question poger.</h1>
+      <div class="prompts" id="prompts">
+        <div onclick="triggerWord(this)">
+          <div class="blocker">
+            <p>1</p>
+          </div>
+          <p>your momther is gay</p>
+          <div class="percentage">
+            <div></div>
+            <p>17 respondents</p>
+          </div>
+        </div>
+      </div>
+      <button onclick="nextQuestion()">Next Question</button>
+    </div>
+  </body>
+</html>
