@@ -25,10 +25,6 @@ var questions = [
       {
         text:"drink water",
         respondents:"3"
-      },
-      {
-        text:"drink water",
-        respondents:"3"
       }
     ]
   },
@@ -150,7 +146,7 @@ var questions = [
         respondents:"2"
       },
       {
-        text:"Use mobile data",
+        text:"use mobile data",
         respondents:"2"
       }
     ]
